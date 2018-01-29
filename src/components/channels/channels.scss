@@ -1,0 +1,29 @@
+#qanell{
+	width: 90%;
+	height: max-content;
+	border:solid 1px white;
+	background-color: white;
+	display: flex;
+	margin:auto;
+	padding:1%;
+	flex-direction:column;
+	border-bottom:solid 1px rgba(gray, .3);
+	overflow: scroll;
+	.videot{
+		display: flex;
+	}
+	.music{
+		
+		display: flex;
+		align-items:center;
+		margin: 5px 10px;
+		letter-spacing: 0;
+		font-weight: 500;
+		p{
+			margin:0;
+			margin-left:10px;
+			color:gray;
+			font-size:13px;
+		}
+	}
+}

@@ -1,0 +1,9 @@
+<div id="qanell">
+  <div class="music">
+    <span>{{krejtQaneli.emri}}</span>
+    <p>{{krejtQaneli.arsyja}}</p>
+  </div>
+  <div class="videot">
+    <videos v-for="video in krejtQaneli.videot" :krejtVideoja="video"></videos>
+  </div>
+</div>
